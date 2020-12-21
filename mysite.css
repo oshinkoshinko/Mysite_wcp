@@ -251,12 +251,40 @@ header {
 }
 
 .profile-container {
-  display: block;
+  display: flex;
   justify-content: center;
 }
 
 .profile-img {
+  width: 512px;
+}
+
+.profile-detail {
+  width: 512px;
+}
+
+.profile-man {
   width: 250px;
   height: 250px;
+  border-radius: 50%;
   background-image: url("img/my-icon.jpg");
+  margin: 0 auto;
+}
+
+.profile-name {
+  text-align: left;
+}
+
+.profile-item {
+  font-size: 20px;
+  color: #000000;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.skill {
+  margin-top: 20px;
+  margin-bottom: 5px;
 }

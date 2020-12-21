@@ -288,3 +288,90 @@ header {
   margin-top: 20px;
   margin-bottom: 5px;
 }
+
+#contact {
+  width: 100%;
+  background-color: #fafafa;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact-contents {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.contact-title:after {
+  content: "";
+  margin: 8px auto 30px auto;
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: #ec715f;
+}
+
+.contact-summary {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-detail {
+  margin: 0 auto;
+  width: 400px;
+  display: block;
+  text-align: center;
+}
+
+.contact-head {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+}
+
+.mail-address {
+  color: #000000;
+  border-bottom: solid 1px;
+}
+
+.tel-number {
+  color: #000000;
+  border-bottom: solid 1px;
+}
+
+.sns {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.sns-head {
+  font-size: 20px;
+}
+
+i {
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.fa-facebook-f {
+  margin-right: 20px;
+}
+
+.fa-twitter {
+  margin-right: 20px;
+}

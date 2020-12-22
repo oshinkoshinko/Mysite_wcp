@@ -441,6 +441,7 @@ footer {
   .visual-section {
     width: 90%;
     text-align: center;
+    margin: 0 auto;
   }
 
   .main-title {

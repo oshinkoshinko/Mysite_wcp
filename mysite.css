@@ -19,12 +19,15 @@ header {
   width: 1024px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .icon {
   height: 70px;
-  margin: 0 auto 0 0;
+}
+
+.fa-bars {
+  display: none;
 }
 
 .nav-list {
@@ -331,8 +334,12 @@ header {
 .contact-detail {
   margin: 0 auto;
   width: 400px;
-  display: block;
   text-align: center;
+}
+
+.contact-detail-section {
+  display: inline-block;
+  text-align: left;
 }
 
 .contact-head {
@@ -357,6 +364,12 @@ header {
 .sns {
   width: 400px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.sns-section {
+  text-align: left;
+  display: inline-block;
 }
 
 .sns-head {
@@ -374,4 +387,100 @@ i {
 
 .fa-twitter {
   margin-right: 20px;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 60px;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
+  color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+  }
+
+  .header-nav {
+    width: 90%;
+    display: flex;
+  }
+
+  .icon {
+    height: 50px;
+    margin-right: auto;
+  }
+
+  .fa-bars {
+    display: inline-block;
+    color: #fafafa;
+    font-size: 30px;
+    margin: 10px 10px -5px auto;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    color: #fafafa;
+  }
+
+  .visual-section {
+    width: 90%;
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 40px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .portfolio-contents {
+    width: 90%;
+    text-align: center;
+  }
+
+  .portfolio-title {
+    font-size: 32px;
+    color: #000000;
+  }
+
+  .portfolio-summary {
+    font-size: 16px;
+  }
+
+  .portfolio-img:nth-child(odd) {
+    display: none;
+  }
+
+  .portfolio-img:nth-child(even) {
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .portfolio-img:nth-child(2) {
+    margin-bottom: 10px;
+  }
+
+  .portfolio-img:nth-child(4) {
+    margin-bottom: 10px;
+  }
+
+  .portfolio-img:nth-child(6) {
+    margin-bottom: 0px;
+  }
 }

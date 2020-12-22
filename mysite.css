@@ -283,6 +283,10 @@ header {
   color: #000000;
 }
 
+.profile-sentence {
+  font-size: 16px;
+}
+
 .name {
   margin-bottom: 5px;
 }
@@ -431,6 +435,7 @@ footer {
     background-position: center;
     padding-top: 200px;
     color: #fafafa;
+    display: block;
   }
 
   .visual-section {
@@ -451,13 +456,8 @@ footer {
     text-align: center;
   }
 
-  .portfolio-title {
-    font-size: 32px;
-    color: #000000;
-  }
-
-  .portfolio-summary {
-    font-size: 16px;
+  .images {
+    display: inline-block;
   }
 
   .portfolio-img:nth-child(odd) {
@@ -482,5 +482,63 @@ footer {
 
   .portfolio-img:nth-child(6) {
     margin-bottom: 0px;
+  }
+
+  .feature-contents {
+    width: 90%;
+  }
+
+  .feature-list {
+    display: inline-block;
+  }
+
+  .profile-contents {
+    width: 90%;
+  }
+
+  .profile-container {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .profile-img {
+    width: 100%;
+  }
+
+  .profile-detail {
+    width: 100%;
+  }
+
+  .profile-man {
+    margin-bottom: 30px;
+  }
+
+  .profile-name {
+    text-align: center;
+  }
+
+  .contact-contents {
+    width: 90%;
+  }
+
+  .contact-container {
+    display: inline-block;
+  }
+
+  .contact-detail-section {
+    text-align: center;
+  }
+
+  .sns-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .fa-facebook-f {
+    margin-right: 8px;
+  }
+
+  .fa-twitter {
+    margin-right: 8px;
   }
 }
